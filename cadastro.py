@@ -22,7 +22,7 @@ def signup():
 
     if password == conform:
         try:
-            file = open('datasheet.txt', 'r+')
+            file = open('darasheet.txt', 'r+')
             d = file.read()
             file.close()
             r = ast.literal_eval(d)
